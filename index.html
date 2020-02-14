@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Flask blog</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>This simple web blog created with Flask framework, utilizing SQLAlchemy database and Bootstrap 4 library for a frontend styling.</p>
+            <p>You can press 'GO TO POSTS' button below to explore how it works. Thank you!</p>
+            <p><a class="btn btn-primary" href="/posts" role="button">Go to posts >>></a></p>
+        </div>
+    </div>
+</main>
+{% endblock %}
