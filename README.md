@@ -1,4 +1,2 @@
 # Flask-web-blog
-Simple Flask build web blog
-
-Created with SQLAlchemy database and Bootstrap 4
+Flask build simple web blog app, created with SQLAlchemy database and Bootstrap styling.
